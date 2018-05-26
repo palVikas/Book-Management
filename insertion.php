@@ -21,7 +21,15 @@
 </head>
 <body>
 	<h1 align="center">Book Record Management</h1>
-	<p align="center"><?php if($status == 1) echo "file store successfully"; ?></p>
+	<p align="center"><?php 
+			if($status == 1){
+			 	echo "data store successfully";
+			 }else
+			 	echo "data store unsuccessfull back to"; 
+			 ?>
+			 
+	</p>
+	<p align="center" >Do you want to insert more data <a href="insertForm.php">Click Here</a></p>
 
 </body>
 </html>
