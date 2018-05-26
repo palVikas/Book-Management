@@ -5,14 +5,14 @@
 </head>
 <body>
 	<h1 align="center">Book Record Management</h1>
-	<form action="insert.php" method="post">
+	<form action="insertion.php" method="post">
 		<table align="center">
 			<tr>
 				<td><th>Book Title</th></td>
 				<td><input type="text" name="book_title" required ></td>
 			</tr>
 			<tr>
-				<td><th>price</th></td>
+				<td><th>Price</th></td>
 				<td><input type="text" name="price" required ></td>
 
 			</tr>
@@ -21,11 +21,9 @@
 				<td><input type="text" name="author_name" ></td>
 
 			</tr>
-			<tr><div>
-				<td></td>
-				<td colspan="3" align="center"><input type="submit" name="submit"></td>
-				
-			</div>
+			<tr>
+				<th></th>
+				<td colspan="2" align="center"><input type="submit" name="submit"></td>
 				
 			</tr>
 			
