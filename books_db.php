@@ -21,14 +21,7 @@
 						Author varchar(255)
 						)";
 
-	 if(mysqli_query($conn,$create_table)){
-	 	echo "table creted";
-	 }
-	 else
-	 	echo "table not created";
-
-
-
-
-
- ?>
+	 mysqli_query($conn,$create_table);
+	 	
+	 
+?>
