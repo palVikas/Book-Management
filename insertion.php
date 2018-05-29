@@ -4,12 +4,9 @@
 	$book_name = $_POST['book_title'];
 	$price = $_POST['price'];
 	$author = $_POST['author_name'];
-	
-
-
 	$insert_into_table = "INSERT INTO book (Title,Price,Author) VALUES ('$book_name', $price, '$author')";
+	$status = mysqli_query($conn,$insert_into_table);
 
-	 $status = mysqli_query($conn,$insert_into_table)
 
 ?>
 
@@ -20,7 +17,8 @@
 	<title>insert data</title>
 </head>
 <body>
-	<h1 align="center">Book Record Management</h1>
+	<h1 align="center" style="background: gray; color: white">Book Record Management</h1>
+	<p align="right"><b><a href="home.php">HOME</a></b></p>
 	<p align="center"><?php 
 			if($status == 1){
 			 	echo "data store successfully";

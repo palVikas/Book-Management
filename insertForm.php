@@ -4,7 +4,8 @@
 	<title>Insert Book</title>
 </head>
 <body>
-	<h1 align="center">Book Record Management</h1>
+	<h1 align="center" style="background: gray; color: white">Book Record Management</h1>
+	<p align="right"><b><a href="home.php">HOME</a></b></p>
 	<form action="insertion.php" method="post">
 		<table align="center">
 			<tr>
@@ -26,18 +27,7 @@
 				<td colspan="2" align="center"><input type="submit" name="submit"></td>
 				
 			</tr>
-			
-			
-
-
-
-
 		</table>
-		
-
-
-
-
 	</form>
 
 </body>

@@ -6,11 +6,6 @@
 	$db_name = "brm_db";
 
 	$conn = mysqli_connect($host,$user,$password,$db_name);
-	 if(!$conn){
-	 	echo "connection error";
-	 }else{
-	 	echo "connect successfully";
-	}
 
 
 	 $table = "book";
